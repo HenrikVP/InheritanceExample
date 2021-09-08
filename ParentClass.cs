@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace InheritanceExample
 {
-    class ParentClass
+    //Abstracte klasser kan IKKE instantieres!
+    abstract class ParentClass : GrandparentBaseClass
     {
         public int Id { get; set; }
         public string Name {  get; set; }

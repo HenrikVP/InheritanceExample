@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InheritanceExample
 {
-    class CatClass : ParentClass
+    sealed class CatClass : ParentClass
     {
         public int NumberOfFurnituresScratched { get; set; }
         public int AmountOfAnimalsSacrificedForFood { get; set; }

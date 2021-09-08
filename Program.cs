@@ -11,12 +11,13 @@ namespace InheritanceExample
             Console.WriteLine("Hello World!");
 
             CatClass cat = new CatClass();
-            
+            cat.AmountOfPettingPerDay = 200;
 
             DogClass dog = new DogClass();
             dog.Color = AnimalColor.BloodBrown;
-
-            ParentClass parent = new ParentClass();
+            dog.AmountOfPettingPerDay = 2000;
+            //Vi kan IKKE oprette en ny instans af en abstrakt klasse!
+            //ParentClass parent = new ParentClass();
         }
     }
 }
